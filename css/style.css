@@ -227,3 +227,25 @@ aside p {
         color: #0bd;
     }
 }
+
+/* モバイル版 */
+@media (max-width: 600px) {
+    .page-tilte {
+        font-size: 2.5rem;
+    }
+
+    /* Header */
+    .main-nav {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .main-nav li {
+        margin: 0 20px;
+    }
+
+    /* Home */
+    .home-content {
+        margin-top: 20%;
+    }
+}
