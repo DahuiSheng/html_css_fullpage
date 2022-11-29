@@ -228,6 +228,31 @@ aside p {
     }
 }
 
+
+/* Menu */
+
+#menu {
+    background-image: url(../images/menu-bg.jpg);
+    min-height: 100vh;
+}
+
+.menu-content {
+    max-width: 560px;
+    margin-top: 10%;
+}
+
+
+.menu-content .page-title {
+    text-align: center;
+}
+
+.menu-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+}
+
+
+
 /* モバイル版 */
 @media (max-width: 600px) {
     .page-tilte {
@@ -299,5 +324,10 @@ aside p {
     .post-title,
     .post-cat {
         margin-left:80px
+    }
+
+    /* Menu */
+    .menu-content {
+        margin-top: 20%;
     }
 }
