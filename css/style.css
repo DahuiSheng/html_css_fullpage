@@ -98,6 +98,8 @@ img {
 #home {
     background-image: url(../images/main-bg.jpg);
     min-height: 100vh;
+    background-color: #888;
+    background-blend-mode: hard-light;
 }
 
 #home .page-title {
