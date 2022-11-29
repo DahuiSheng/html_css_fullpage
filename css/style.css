@@ -261,6 +261,7 @@ aside p {
 
 .big-box {
     grid-column: 1 / 3;
+    grid-row: 1 / 3;
 }
 
 /* モバイル版 */
